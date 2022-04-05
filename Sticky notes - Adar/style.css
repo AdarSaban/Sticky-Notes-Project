@@ -1,0 +1,74 @@
+body {
+    height: 100%;
+    background-image: url(./img/tile.jpg);
+  }
+  #header {
+    height: 15%;
+    display: flex;
+    justify-content: center;
+  }
+#mainInputs{
+    height: 20%;
+    font-weight: bold;
+    background-image: url(./img/formbg.jpg);
+    width: 35%;
+    padding: 20px;
+    padding-left: 80px;
+    border: black solid;
+    margin-top: 40px;
+    margin-left:400px;
+    display: block;
+}
+#buttons{
+ position: static;
+
+}
+#container > div {
+  height: 100%;
+  width: 15%;
+  display: inline-block;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: left;
+  padding-top: 15px;
+  padding-left: 5px;
+  background-image: url(./img/notebg.png);
+  margin: 5px;
+  animation: fade 2s linear;
+}
+
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 2;
+  }
+}
+
+.noteSpace {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  width: 170px;
+  overflow-y: auto;
+  word-wrap:break-word;
+  height: 100px;
+
+}
+.newDateTime{
+  text-align: left;
+  margin-top: 75px;
+  margin-left: 5px;
+  font-weight: bold;
+
+}
+.x-icon{
+  margin-left: 160px;
+  opacity: 0;
+}
+.x-icon:hover{
+  opacity: 1;
+}
+
